@@ -7,36 +7,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <title>Adhoc</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Adhoc - Home</title>
 </head>
 
 <body>
     <!-- Navbar Component -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/logo.png" alt="brand"></a>
+        <a class="navbar-brand" href="./index.html"><img class="navbar-logo mb-2" src="https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/logo.png" alt="brand"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="./about.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Our Teams</a>
+                    <a class="nav-link" href="./teams.html">Our Teams</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid" style="background:url(https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/jumbotron.png) no-repeat; background-size: cover;">
-        <div class="text-white text-center bg-secondary my-5">
+        <div class="text-white text-center bg-transparent my-5">
             <h1 class="display-4">Administration made easy</h1>
             <p>Adhoc is an on-demand administration service for your company growth</p>
         </div>
@@ -46,8 +48,8 @@
         <!-- Quote Section -->
         <div class="row">
             <div class="col my-5">
-                <h2 class="text-left font-italic font-weight-light">"Thanks to Adhoc we now have beautiful and faithful service every
-                    day. Our customers are happy and engagement has drastically increased. Highly recommend!"</h2>
+                <h3 class="text-left font-italic font-weight-light">"Thanks to Adhoc we now have beautiful and faithful service every
+                    day. Our customers are happy and engagement has drastically increased. Highly recommend!"</h3>
                 <p class="text-secondary font-weight-bold text-right font-italic">-Dave Ellavar, <span class="font-italic font-weight-light">Academy of Code</span></p>
             </div>
         </div>
@@ -60,7 +62,7 @@
         </div>
         <!-- Image Reasons Section -->
         <div class="row justify-content-center mb-5">
-            <div class="col-8 col-md-4">
+            <div class="col-8 col-md-3">
                 <div class="card border-0">
                     <img class="card-img-top" src="https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/experienced.png" alt="experienced-icon">
                     <div class="card-body">
@@ -68,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-8 col-md-4">
+            <div class="col-8 col-md-3">
                 <div class="card border-0">
                     <img class="card-img-top" src="https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/fun.png" alt="fun-icon">
                     <div class="card-body">
@@ -76,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-8 col-md-4">
+            <div class="col-8 col-md-3">
                 <div class="card border-0">
                     <img class="card-img-top" src="https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/smart.png" alt="smart-icon">
                     <div class="card-body">
@@ -86,14 +88,14 @@
             </div>
         </div>
         <!-- Meet the Team Section -->
-        <div class="row bg-dark rounded-top">
-            <div class="col">
+        <div class="row ">
+            <div class="col bg-dark rounded-top">
                 <h2 class="text-white text-center display-4">Meet the Team</h2>
             </div>
         </div>
         <!-- Team Pictures Carousel -->
-        <div class="row bg-dark rounded-bottom">
-            <div class="col">
+        <div class="row ">
+            <div class="col bg-dark rounded-bottom">
                 <!-- Carousel Component -->
                 <div id="carouselExampleControls" class="carousel slide w-50 mx-auto" data-ride="carousel">
                     <div class="carousel-inner">
@@ -133,6 +135,7 @@
                 </div>
             </div>
         </div>
+        <br>
     </div>
     <!-- Footer -->
     <footer class="text-center">2020 Adhoc &copy;</footer>
