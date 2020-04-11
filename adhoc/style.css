@@ -1,3 +1,9 @@
 /*.navbar-logo {
     vertical-align: top;
 }*/
+
+.right {
+  height: 40vh;
+  overflow: hidden;
+  overflow-y: scroll; 
+}
